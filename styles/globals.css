@@ -1,4 +1,20 @@
-:root {
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 200vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +120,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
