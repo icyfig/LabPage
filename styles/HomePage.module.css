@@ -1,77 +1,100 @@
-.navBar {
-    background-color: rgb(192, 192, 192, 0.4);
-    height: 12vh;
-    width: 100vw;
-    margin-left: 0;
-    position: fixed;
-    z-index: 2;
-    box-shadow: 0 1px 15px 0 rgba(0,0,0,.2);
+.navbar {
+  position: fixed;
+  background-color:rgba(255, 255, 255, 1);
+  height: 12vh;
+  width: 100vw;
+  z-index: 2;
 }
 
-.navBarLeft {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    float: left;
-    height: 100%;
-    width: 20%;
-    padding-left: 10%;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    color: black;
-  }
-  .navBarRight {
-    display: flex;
-    flex-direction: row;  
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    float: right;
-    height: 100%;
-    width: 80%;
-    padding-right: 10%;
-    padding-left: 20%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: black;
-  } 
-  
-  .CarouTemp {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .CarouselImage {
-    object-fit: cover;
-    object-position: 20% 0%;
-  }
+.navbarLeft {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  float: left;
+  height: 100%;
+  width: 20%;
+  padding-left: 10%;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-  .navBarRight .listItem {
-    padding-top: 2rem;
-    height: 100%;
-  }  
+.navbarRight {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  float: right;
+  height: 100%;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 20%;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
 
-  .navBarRight .listItem:hover{
-    border-bottom: 5px solid green;
-  }
-  
-  .contact {
-    padding-top: 20vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
+.listItemScroll {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:black;
+}
 
-  .listItem {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: black;
-  }
-  
-  
+.listItemInitial {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:white;
+}
+
+.listItemDiv {
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.emptyDiv {
+  height: 10%;
+}
+
+.carouselImageDiv {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.carouselImage {
+  object-fit: cover;
+  object-position: 20% 0%;
+}
+
+.carouselLeftArrow {
+  position: relative;
+  top: 50vh;
+  left: 2vw;
+  z-index:5;
+}
+
+.carouselRightArrow {
+  position: relative;
+  top: 50vh;
+  left: 98vw;
+  z-index:5;
+}
+
+.testDiv {
+  background-color: green;
+  width: 20vw;
+  height: 20vh;
+}
+
+.carouselContentStyle {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}

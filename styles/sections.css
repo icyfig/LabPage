@@ -1,0 +1,33 @@
+#research{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5vh;
+    scroll-margin-top: var(--navHeight);
+}
+
+#members{
+    background-color: azure;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5vh;
+    scroll-margin-top: var(--navHeight);
+
+
+}
+
+#publications{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5vh;
+    scroll-margin-top: var(--navHeight);
+}
+
+#contact{
+    height: 50vh;
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    padding-top: 5vh;
+    scroll-margin-top: var(--navHeight);    
+}
