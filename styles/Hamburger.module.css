@@ -1,0 +1,24 @@
+/* HamburgerMenu.module.css */
+
+.hamburgerMenu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .line {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .open {
+    transform: rotate(45deg); /* Rotate the lines to create an "X" shape */
+  }
+  

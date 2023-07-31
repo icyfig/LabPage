@@ -1,0 +1,71 @@
+/* AnimatedNavbar.module.css */
+
+.navbarContainer {
+    position: relative;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 100;
+  }
+  
+  .navbar.open {
+    left: 0; /* Slide in position when open */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .navbarLink{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hamburgerMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .hamburger {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin-bottom: 6px;
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger.open {
+    transform: rotate(-45deg); /* Rotate the hamburger to make it look like a close icon */
+  }
+  
+  .hamburger.open:before,
+  .hamburger.open:after {
+    top: 0;
+    transform: rotate(90deg); /* Adjust the "before" and "after" pseudo-elements to create the close icon */
+  }
+  
+  .hamburger.open:before {
+    top: -10px;
+  }
+  
+  .hamburger.open:after {
+    top: 10px;
+  }
+  

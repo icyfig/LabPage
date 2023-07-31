@@ -1,8 +1,8 @@
 #research{
-    background-color: antiquewhite;
-    height: 100vh;
+    /* background-color: antiquewhite; */
+    /* height: 100vh; */
     width: 100%;
-    padding-top: 5vh;
+    /* padding-top: 15vh; */
     scroll-margin-top: var(--navHeight);
 }
 
@@ -16,18 +16,235 @@
 
 }
 
-#publications{
+/* #publications{
     background-color: bisque;
     height: 100vh;
     width: 100%;
     padding-top: 5vh;
     scroll-margin-top: var(--navHeight);
+} */
+
+#footer{
+    height: 3vh;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-right: 1vw;
+    scroll-margin-top: var(--navHeight);    
+    text-align: right;
 }
 
-#contact{
-    height: 50vh;
-    background-color: rgb(246, 246, 246);
+#research_body{
+    background-color: #f9f7f4;
+    /* height: 100vh; */
+    width: 100vw;
+    padding-top: 17vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    /* padding-bottom: 2vw; */
+
+    /* display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around; */
+  }
+
+
+#people{
+    /* background-color: antiquewhite; */
+    /* height: 100vh; */
     width: 100%;
+    /* padding-top: 15vh; */
+    scroll-margin-top: var(--navHeight);
+}
+
+#people_body{
+    background-color: #eff5f2;
+    /* height: 100vh; */
+    padding-top: 15vh;
+    width: 100vw;
+    padding-top: 17vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+
+    /* display: flex; */
+}
+
+#publications{
+    /* background-color: antiquewhite; */
+    /* height: 100vh; */
+    width: 100%;
+    /* padding-top: 15vh; */
+    scroll-margin-top: var(--navHeight);
+}
+
+#publications_body{
+    background-color: #f4eeef;
+    /* height: 100vh; */
+    width: 100vw;
+    padding-top: 17vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+    /* display: flex; */
+    /* white-space: pre-wrap; */
+}
+
+#publication_list{
+    font-size: 1.3rem;
+}
+
+#publication_list li{
+    padding-top: 1rem;
+}
+
+#research_list{
+    padding-top: 5 vh;
+    padding-bottom: 3vh;
+    font-size: 1.3rem;
+}
+
+#research_heading{
+    padding-top: 2vh;
+}
+
+#research_list li{
+    padding-top: 1rem;
+}
+
+
+#publication_link{
+    text-decoration: none;
+}
+
+#personal{
+    /* background-color: antiquewhite; */
+    /* height: 100vh; */
+    width: 100%;
+    /* padding-top: 15vh; */
+    scroll-margin-top: var(--navHeight);
+}
+
+#personal_body{
+    background-color: #eeeaf1;
+    /* height: 100vh; */
+    width: 100vw;
+    padding-top: 17vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+
+    /* display: flex; */
+}
+
+#researchImage{
+    object-fit: fill;
+    object-position: 20% 50%;
+} 
+
+#peopleImage{
+    object-fit:cover;
+    object-position: 47% 8%;
+} 
+
+
+#personalImageDiv{
+    /* object-fit: cover;
+    object-position: 20% 0%; */
+    width: calc(50vh * (436/461));
+    height: 50vh;
+    position: relative;
+    
+
+    /* padding-bottom: 2vh; */
+    /* text-align: center; */
+}
+
+#personalImageCentering{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+#researchImageDiv{
+    /* object-fit: cover;
+    object-position: 20% 0%; */
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+    object-fit: cover;
+    object-position: 20% 0%;
+
+    
+
+    /* padding-bottom: 2vh; */
+    /* text-align: center; */
+}
+
+#peopleImageDiv{
+    /* object-fit: cover;
+    object-position: 20% 0%; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 0%;
+
+    
+
+    /* padding-bottom: 2vh; */
+    /* text-align: center; */
+}
+
+
+#researchImageCentering{
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    
+}
+
+#peopleImageCentering{
+    padding-top: 2vh;
+    display: flex;
+    width: 100%;
+    padding-bottom: 2vh;
+    /* justify-content: center; */
+    
+}
+
+
+
+
+#contact{
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100%;
+    /* padding-top: 15vh; */
+    scroll-margin-top: var(--navHeight);
+}
+
+#contact_body{
+    background-color: #f2eef4;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 15vh;
+    padding-top: 17vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+
+    /* display: flex; */
+}
+
+#contact_details{
+    font-size: 1.3rem;
     padding-top: 5vh;
-    scroll-margin-top: var(--navHeight);    
+}
+
+
+#text{
+    white-space: pre-wrap;
 }

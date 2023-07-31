@@ -3,7 +3,7 @@
   background-color:rgba(255, 255, 255, 1);
   height: 12vh;
   width: 100vw;
-  z-index: 2;
+  z-index: 15;
 }
 
 .navbarLeft {
@@ -12,11 +12,13 @@
   list-style: none;
   float: left;
   height: 100%;
-  width: 20%;
-  padding-left: 10%;
+  width: 50%;
+  padding-left: 5%;
   align-items: center;
-  font-size: 2rem;
+  justify-content: left;
+  font-size: 1.5rem;
   font-weight: bold;
+  z-index: 15;
 }
 
 .navbarRight {
@@ -27,11 +29,12 @@
   list-style: none;
   float: right;
   height: 100%;
-  width: 80%;
-  padding-right: 10%;
-  padding-left: 20%;
+  width: 50%;
+  padding-right: 5%;
+  padding-left: 5%;
   font-size: 1.4rem;
   font-weight: normal;
+  z-index: 15;
 }
 
 .listItemScroll {
@@ -58,17 +61,17 @@
   height: 10%;
 }
 
-.carouselImageDiv {
+/* .CarouTemp {
   position: relative;
   top: 0;
   left: 0;
   height: 100vh;
   width: 100%;
-}
+} */
 
 .carouselImage {
   object-fit: cover;
-  object-position: 20% 0%;
+  object-position: 20% 3%;
 }
 
 .carouselLeftArrow {
@@ -98,3 +101,139 @@
   height: 100vh;
   width: 100vw;
 }
+
+.carouselButtonLeft {
+  position: absolute;
+  top: 50vh;
+  left: 2vw;
+  z-index: 5;
+}
+
+.carouselButtonRight{
+  position: absolute;
+  top: 50vh;
+  right: 2vw;
+  z-index: 5;
+
+}
+
+.imagecaption{
+  width: 100%;
+  height: 5h;
+  /* background-color:rgba(138, 138, 138, 0.347); */
+  position: absolute;
+  top: 85vh;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+}
+
+.imagecaptionbg{
+  /* width: 15vw; */
+  height: 5h;
+  background-color:rgba(69, 69, 69, 0.474);
+  z-index: 20;
+  border-radius: 7px;
+}
+
+.captionText{
+  color: rgb(255, 255, 255, 0.95);
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.rightCarouselButton {
+  position: absolute;
+  top: 50vh;
+  left: 2vw;
+  z-index: 5;
+}
+
+#research{
+  background-color: red;
+}
+
+.svgburger {
+  width: 2rem;
+  height: 2rem;
+  display: none;
+
+}
+
+.caption {
+  background-color: lightgrey;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+}
+
+.navbarLeftHeading {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1260px) {
+  .navbarRight{
+    font-size: 1rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    width:70%;
+  }
+
+  .navbarLeft {
+    width: 30%;
+    padding-left: 5%;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbarRight{
+    display: none;
+  }
+
+  .navbarLeft {
+    width: 100%;
+    padding-left: 5%;
+    justify-content: space-around;
+    font-size: 1rem
+  }
+
+  .navbarLeftHeading {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
+
+
+  .svgburger {
+    display: flex;
+    /* flex-direction: row;  
+    justify-content: space-around; */
+    /* align-items: center;
+    list-style: none; */
+    float:left;
+    /* padding-right: 10%;
+    padding-left: 20%; */
+    /* font-size: 1.4rem;
+    font-weight: normal; */
+    z-index: 15;
+    height: 100%;
+    /* padding-top: 2vh; */
+    /* padding-left: 10%; */
+    }
+
+    .carouselImage {
+      object-fit: cover;
+      object-position: 50% 0%;
+    }
+
+    
+
+}
+
+/* @media only screen and (min-width: 600px) {
+} */
