@@ -36,3 +36,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Editing the Site
+
+Go to the home directory - 'labsite'
+npm run install - install dependencies
+
+
+npm run dev - to test on local browser. 
+For local testing, change the value of of the variable  "curLocation = "/~swagata" to empty string. (Under components/Navbar/Navbar.js)
+
+After editing the pages as required run npm run build and npm run export. 
+
+Transfer the contents of the 'out' folder to the swagata/public_html on the remote server.

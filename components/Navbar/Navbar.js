@@ -60,9 +60,9 @@ export default function Navbar() {
     }
   }
 
-  // var curLocation = "/out"    //linode production
-  var curLocation = "/~swagata"           //niser
-  // var curLocation = ""
+  // var curLocation = "/out"    //server
+  var curLocation = "/~swagata"           //niser server
+  // var curLocation = ""        // Local
 
   return (
   <>
