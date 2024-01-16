@@ -45,8 +45,10 @@ npm run install - install dependencies
 
 
 npm run dev - to test on local browser. 
-For local testing, change the value of of the variable  "curLocation = "/~swagata" to empty string. (Under components/Navbar/Navbar.js)
+For local testing, temporarily change the value of the variable from  "curLocation = "/~swagata" to empty string. (Under components/Navbar/Navbar.js)
 
-After editing the pages as required run npm run build and npm run export. 
+Pages can be edited under the 'pages' folder. After After making the required edits, run:
+run npm run build
+npm run export
 
-Transfer the contents of the 'out' folder to the swagata/public_html on the remote server.
+Transfer the contents of the 'out' folder to the directory swagata/public_html on the remote server.
